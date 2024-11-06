@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- En-tête -->
+
+        <header>
+            <nav>
+              <ul class="menu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+              <!-- Bouton Hamburger -->
+              <div class="hamburger">
+                <i class="bx bx-menu"></i>
+              </div>
+            </nav>
+          </header>
+
+        <!-- Section Accueil -->
+        <section id="accueil" class="accueil">
+            <div class="contenu-accueil">
+                <h1> <strong>SALUT &#128075;!</strong> C'EST JEAN-CLAUDE LULU</h1>
+                <p><strong style="color: gold;">Développeur Frontend & Backend</strong></p>
+                <a href="#contact" class="btn">Contactez-moi</a>
+            </div>
+        </section>
+
+        <!-- Section À propos -->
+        <section id="apropos" class="apropos">
+            <h2>À propos de moi</h2>
+            <p style="margin-bottom: 1rem; font-size: 1.2rem;">Je me nomme
+                <strong>KONGOLO LULU Jean-Claude</strong>, <i
+                    style="text-decoration: underline; color : gray">Développeur
+                    fullstack (JS)</i>. Je suis passionné du développement WEB
+                avec une forte expérience dans la création de sites web
+                fonctionnels et beaux. <br> <strong style="color: green; font-size:1.5rem">Grande sera
+                ma joie de collaborer sur un super projet avec vous !</strong> </p>
+            <div class="grille-apropos">
+                <div class="apropos-item">
+                    <img src="./img/About-me 3.jpeg" alt="about-me">
+                    <h3>Une petite photo avec un compagnon de très longues dates (ordinateur).</h3>
+                </div>
+                <div class="apropos-item">
+                    <img src="./img/About-me 4.jpeg" alt="about-me">
+                    <h3>4 mois étaient passés sans que je n'ai touché à une ligne de code, la couleur de mes yeux peut en témoigner !</h3>
+                </div>
+                <div class="apropos-item">
+                    <img src="./img/About-me 2.jpeg" alt="about-me">
+                    <h3>Une petite pause avant de reprendre le bug là ou je l'ai laissé !</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section id="projets" class="projets">
+            <h2>Mes Projets</h2>
+            <div class="grille-projets">
+                <div class="projet-item">
+                    <img src="./img/Loading.jpeg" alt="Projet 1">
+                    <h3>Description à venir ...</h3>
+                </div>
+                <div class="projet-item">
+                    <img src="./img/Biology.JPG" alt="Projet 2">
+                    <h3>Description à venir ...</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Compétences -->
+        <section id="competences" class="competences">
+            <h2>Compétences</h2>
+            <div class="grille-competences">
+                <div class="competence-item" title="HTML : Langage de balisage pour structurer le contenu web.">
+                    <i class='bx bxl-html5 icon-html5'></i>
+                    <p>HTML5</p>
+                </div>
+                <div class="competence-item" title="CSS : Feuilles de style pour le design des pages web.">
+                    <i class='bx bxl-css3 icon-css3'></i>
+                    <p>CSS3</p>
+                </div>
+                <div class="competence-item" title="JavaScript : Langage de programmation pour le web interactif.">
+                    <i class='bx bxl-javascript icon-javascript'></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="competence-item" title="Node.js : Environnement d'exécution JavaScript côté serveur.">
+                    <i class='bx bxl-nodejs icon-nodejs'></i>
+                    <p>Node.js</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="contact">
+            <h2>échangeons !</h2>
+            <p>Avez-vous besoins d'un site ou d'une application WEB ?</p>
+            <form id="formulaire-contact" action="votre_action" method="POST">
+                <input type="text" name="nom" placeholder="Votre Nom" required>
+                <input type="email" name="email" placeholder="Votre Email"
+                    required>
+                <textarea name="message" placeholder="Votre Message" required></textarea>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </section>
+
+        <!-- Pied de page -->
+        <footer>
+            <p>&copy; 2024 Jean-Claude LULU. Tous droits réservés.</p>
+            <div class="reseaux-sociaux">
+                <a href="https://facebook.com" target="_blank" title="Facebook">
+                    <i class='bx bxl-facebook-circle'></i>
+                </a>
+                <a href="https://instagram.com" target="_blank"
+                    title="Instagram">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="https://github.com" target="_blank" title="GitHub">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="https://wa.me/votrenumero" target="_blank"
+                    title="WhatsApp">
+                    <i class='bx bxl-whatsapp'></i>
+                </a>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
